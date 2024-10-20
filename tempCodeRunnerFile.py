@@ -18,7 +18,7 @@ CITIES = ["Delhi", "Mumbai", "Chennai", "Bangalore", "Kolkata", "Hyderabad"]
 INTERVAL = 300  # 5 minutes
 
 # User-configurable thresholds
-ALERT_THRESHOLD_TEMP = 35  # Temperature threshold in Celsius
+ALERT_THRESHOLD_TEMP = 30  # Temperature threshold in Celsius
 ALERT_CONSECUTIVE_COUNT = 2  # Number of consecutive readings required to trigger an alert
 
 consecutive_high_temp_count = {city: 0 for city in CITIES}
