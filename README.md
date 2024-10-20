@@ -24,7 +24,7 @@ The system is developed using Python and includes visualizations and a simple al
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/your-username/real-time-weather-monitoring.git
+git clone https://github.com/omprakasheight/real-time-weather-monitoring.git
 cd real-time-weather-monitoring
 ```
 
