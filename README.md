@@ -58,15 +58,15 @@ python3 main.py
 
 ## Example Output
 ```
-City: Delhi, Temp: 30.5°C, Feels Like: 32.0°C, Condition: Clear
-City: Mumbai, Temp: 28.0°C, Feels Like: 29.5°C, Condition: Rain
+City: Delhi, Temp: 31.05000000000001°C, Feels Like: 32.900000000000034°C, Condition: Haze
+City: Mumbai, Temp: 29.99000000000001°C, Feels Like: 35.01000000000005°C, Condition: Haze
+City: Chennai, Temp: 29.610000000000014°C, Feels Like: 36.610000000000014°C, Condition: Mist
+City: Bangalore, Temp: 25.980000000000018°C, Feels Like: 25.980000000000018°C, Condition: Rain
+City: Kolkata, Temp: 29.970000000000027°C, Feels Like: 34.97000000000003°C, Condition: Mist
+City: Hyderabad, Temp: 27.230000000000018°C, Feels Like: 29.640000000000043°C, Condition: Haze
+
 ...
 ```
-
-## Configurable Alerting System
-- Users can set custom thresholds for weather conditions, such as:
-  - Alert if the temperature exceeds 35°C for two consecutive readings.
-- Alerts can be customized to send notifications (e.g., emails).
 
 ## Visualizations
 - Daily weather summaries and trends can be visualized using tools like `matplotlib`.
