@@ -67,6 +67,13 @@ City: Hyderabad, Temp: 27.230000000000018°C, Feels Like: 29.640000000000043°C,
 
 ...
 ```
+# Configurable Alerting System
+- Users can set custom thresholds for weather conditions, such as:
+  - Alert if the temperature exceeds 35°C for two consecutive readings.
+- Continuously tracks the latest weather data and compares it with the thresholds.
+- If a threshold is breached, trigger an alert for the current weather conditions.
+- Alerts could be displayed on the console or sent through an email notification system (implementation details are left open-ended).
+
 
 ## Visualizations
 - Daily weather summaries and trends can be visualized using tools like `matplotlib`.
